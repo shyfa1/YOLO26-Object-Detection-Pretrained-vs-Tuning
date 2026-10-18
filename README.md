@@ -28,7 +28,6 @@ Dataset yang digunakan berisi 3.253 gambar kotak kuning yang merepresentasikan l
 
 Anotasi objek digunakan untuk melatih model agar dapat mengenali dan menentukan lokasi kotak kuning pada gambar. Dataset kemudian digunakan dalam eksperimen pretrained dan tuning untuk membandingkan hasil deteksi dari kedua konfigurasi model.
 
-
 ## 4. Eksperimen
 
 Membandingkan model YOLO26 pretrained sebagai baseline (E1) dan model tuning (E3) yang menggunakan ukuran gambar input berbeda.
@@ -43,7 +42,6 @@ Membandingkan model YOLO26 pretrained sebagai baseline (E1) dan model tuning (E3
 | Pretrained | `true` | `true` |
 
 Perbedaan utama kedua eksperimen terletak pada ukuran gambar input, yaitu 416 pada E1 dan 640 pada E3. Hasil training dan evaluasi kemudian dibandingkan untuk melihat pengaruh perubahan ukuran gambar terhadap performa deteksi objek.
-
 
 ## 5. Analisis Perbandingan E1 Pretrained dan E3 Tuning
 
@@ -85,11 +83,11 @@ Secara keseluruhan, kedua eksperimen menunjukkan hasil validasi yang relatif seb
 
 #### E1 Pretrained
 
-![Grafik Training E1 Pretrained](E1_pretrained_results.png)
+![Grafik Training E1 Pretrained](E1_pretrained/results.png)
 
 #### E3 Tuning
 
-![Grafik Training E3 Tuning](E3_tuning_results.png)
+![Grafik Training E3 Tuning](E3_tuning/results.png)
 
 ### 5.4 Pembahasan Hasil Tuning
 

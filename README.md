@@ -41,7 +41,6 @@ Membandingkan model YOLO26 pretrained sebagai baseline (E1) dan model tuning (E3
 | Batch size | 16 | 16 |
 | Image size (`imgsz`) | 416 | 640 |
 | Pretrained | `true` | `true` |
-| Seed | 0 | 0 |
 
 Perbedaan utama kedua eksperimen terletak pada ukuran gambar input, yaitu 416 pada E1 dan 640 pada E3. Hasil training dan evaluasi kemudian dibandingkan untuk melihat pengaruh perubahan ukuran gambar terhadap performa deteksi objek.
 
